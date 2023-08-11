@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Estilos gerais */ 
+body{
+    font-family: Arial, sans-serif;
+}
+/* Estilos do cabeçalho */
+.header{
+    background-color: rgb(226, 43, 195); 
+    text-align: center;
+    padding: 20px;
+}
+.header h1, .header h2{
+    color: white;
+}
+/* Estilos do corpo de site */
+.main {
+    background-color: rgb(226, 43, 211);
+    padding: 20px;
+}
+.gifs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.gif {
+    
+}
